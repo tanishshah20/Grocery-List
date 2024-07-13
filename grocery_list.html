@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="grocery_list.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Kalam:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <header>
+                <h1>Grocery List</h1>
+            </header>
+            <div class="form">
+                <input type="text" name="text" id="input" placeholder="Enter item">
+                <button id="add_button" onclick="add_to_list()">Add <span class="material-symbols-outlined">add</span></button>
+            </div>
+
+            <h1 class="head">List</h1>
+
+            <ol id="list"> </ol>
+        </div>
+    </div>
+
+    <script src="grocery_list.js"></script>
+</body>
+
+</html>

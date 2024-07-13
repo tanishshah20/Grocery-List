@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #dfdddd;
+}
+
+.container{
+    margin: 30px 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: max-content;
+    min-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid #d1d1d1;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 55px rgba(0, 0, 0, 0.514);
+}
+
+header h1{
+    margin: 5px;
+    padding: 5px;
+    height: max-content;
+    min-width: fit-content;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Kalam;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.form{
+    height: fit-content;
+    min-width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form input{
+    padding: 5px;
+    height: 50px;
+    min-width: 70%;
+    font-size: 1rem;
+    font-family: Handlee;
+    font-weight: 400;
+}
+.form button{
+    padding: 5px;
+    height: 50px;
+    min-width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+    font-size: large;
+    position: relative;
+}
+.form button:hover{
+    cursor: pointer;
+}
+.form button span{
+    transition: all 0.5s;
+    transform: rotate(-90deg);
+}
+.form button:hover span{
+    transition: all 0.5s;
+    transform: rotate(90deg);
+}
+
+.head{
+    margin: 5px;
+    padding: 5px;
+    height: max-content;
+    width: 90%;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+ol{
+    margin: 10px;
+    padding: 5px auto;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Handlee;
+    font-weight: 300;
+}
+ol li{
+    margin: 5px;
+    height: max-content;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ol li:hover{
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+}
