@@ -12,7 +12,3 @@ function add_to_list() {
     }
     input_btn.value = "";
 }
-list.addEventListener('click', function(){
-    this.classList.toggle('done');
-});
-
